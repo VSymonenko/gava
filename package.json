@@ -1,0 +1,26 @@
+{
+  "name": "gavajs",
+  "version": "0.0.1",
+  "description": "Unit test helpers for DOM libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VSymonenko/gava.git"
+  },
+  "keywords": [
+    "test",
+    "unit",
+    "vue",
+    "react",
+    "typescript"
+  ],
+  "author": "VSymonenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VSymonenko/gava/issues"
+  },
+  "homepage": "https://github.com/VSymonenko/gava#readme"
+}
