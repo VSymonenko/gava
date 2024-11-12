@@ -25,5 +25,9 @@
   "homepage": "https://github.com/VSymonenko/gava#readme",
   "workspaces": [
     "packages/vue"
-  ]
+  ],
+  "engines": {
+    "npm": "^10.9.0",
+    "node": "^22.11.0"
+  }
 }
