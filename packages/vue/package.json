@@ -1,5 +1,5 @@
 {
-  "name": "@gava/vue",
+  "name": "@gavajs/vue",
   "version": "0.0.1",
   "description": "Vue unit test",
   "main": "index.js",

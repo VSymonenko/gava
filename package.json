@@ -1,5 +1,5 @@
 {
-  "name": "@gava/gavajs",
+  "name": "@gavajs",
   "version": "0.0.1",
   "description": "Unit test helpers for DOM libraries",
   "main": "index.js",
