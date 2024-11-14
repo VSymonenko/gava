@@ -1,3 +1,3 @@
-import { mount } from './mount.mts';
+import { mount } from './mount';
 
 export { mount };

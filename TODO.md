@@ -6,11 +6,12 @@ Project Description
 
 ### Todo
 
-- [ ] add esbuild  
+- [ ] mangling, minifyig artifact  
 
 ### In Progress
 
 
 ### Done ✓
 
+- [x] make build esm artifact with tsc  
 

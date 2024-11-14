@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build": "tsc -p tsconfig.build.json"
   },
   "repository": {
     "type": "git",
