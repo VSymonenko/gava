@@ -1,12 +1,13 @@
 {
   "name": "@gavajs/vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue unit test",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "vitest run",
     "lint": "eslint",
-    "build": "tsc -p tsconfig.build.json"
+    "build": "tsc -p tsconfig.build.json",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
     "unit",
     "test",
     "testing",
-    "nount"
+    "web component",
+    "mount component",
+    "render component",
+    "component"
   ],
   "author": "VSymonenko",
   "license": "MIT",

@@ -10,6 +10,7 @@ Project Description
 
 ### In Progress
 
+- [ ] publish vue version  
 
 ### Done ✓
 
