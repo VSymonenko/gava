@@ -6,6 +6,8 @@ Project Description
 
 ### Todo
 
+- [ ] make test coverage 100 %  
+- [ ] add coverage badge  
 - [ ] make release  
 - [ ] mangling, minifyig artifact  
 
