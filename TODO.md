@@ -6,16 +6,16 @@ Project Description
 
 ### Todo
 
-- [ ] make github actions  
 - [ ] make release  
 - [ ] mangling, minifyig artifact  
 
 ### In Progress
 
-- [ ] remove map files from npm pack  
+- [ ] make github actions  
 
 ### Done ✓
 
+- [x] remove map files from npm pack  
 - [x] make npm ignore  
 - [x] publish vue version  
 - [x] make build esm artifact with tsc  
