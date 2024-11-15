@@ -4,9 +4,8 @@
 name: npm package
 
 on:
-  push:
-    paths:
-      - packages/vue
+  release:
+    types: [created]
 
 jobs:
   test:
