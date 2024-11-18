@@ -8,11 +8,11 @@ Project Description
 
 - [ ] make test coverage 100 %  
 - [ ] add coverage badge  
-- [ ] make release  
 - [ ] mangling, minifyig artifact  
 
 ### In Progress
 
+- [ ] make release  
 - [ ] make github actions  
 
 ### Done ✓
