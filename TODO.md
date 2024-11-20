@@ -6,6 +6,8 @@ Project Description
 
 ### Todo
 
+- [ ] make git hub actions for monorepo  
+- [ ] fix build task depend on test in github actions  
 - [ ] make test coverage 100 %  
 - [ ] add coverage badge  
 - [ ] mangling, minifyig artifact  

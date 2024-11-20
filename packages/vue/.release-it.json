@@ -1,4 +1,5 @@
 {
+  "git": false,
   "github": {
     "release": true
   }
