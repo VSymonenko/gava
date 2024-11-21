@@ -1,8 +1,9 @@
 name: Release
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 # Needed for nx-set-shas when run on the main branch
 permissions:
