@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "vitest run",
+    "test:types": "tsc --noEmit -p tsconfig.build.json",
     "lint": "eslint",
     "build": "tsc -p tsconfig.build.json",
     "publish": "npm publish --access public",
