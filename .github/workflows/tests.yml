@@ -13,6 +13,9 @@ permissions:
 jobs:
   main:
     runs-on: ubuntu-latest
+    env:
+      NX_BASE: origin/main~1
+      NX_HEAD: origin/main
     steps:
       - uses: actions/checkout@v4
         with:
