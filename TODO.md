@@ -14,8 +14,8 @@ Project Description
 
 ### In Progress
 
-- [ ] make release  
-- [ ] make github actions  
+- [ ] make release doc, should be run by nx  
+- [ ] make github actions release, should be run when release pushed  
 
 ### Done ✓
 
