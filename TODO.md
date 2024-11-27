@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] move node modules up  
 - [ ] make git hub actions for monorepo  
 - [ ] fix build task depend on test in github actions  
 - [ ] make test coverage 100 %  
