@@ -18,7 +18,7 @@ export default [
           enforceParameterCount: false,
         },
       ],
-      'functional/no-throw-statements:': 'warn',
+      'functional/no-throw-statements': 'off',
     },
   },
   {files: ["**/*.{js,mjs,cjs,ts,vue}"]},
