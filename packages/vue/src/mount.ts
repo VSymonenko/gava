@@ -1,5 +1,4 @@
-import { Component } from 'vue';
-import { createApp } from 'vue';
+import { createApp, type Component } from 'vue';
 
 export function mount<T>(_cmp: Component<T>) {
   if (!('setup' in _cmp)) {
