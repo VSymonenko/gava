@@ -4,4 +4,4 @@
 
 ## Usage
 
-<!-- FIXME -->
+Use for unit testing with any test runner.
