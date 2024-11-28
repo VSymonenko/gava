@@ -17,5 +17,11 @@
       "cache": true
     }
   },
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "release": {
+    "projects": [ "@gavajs/vue" ],
+    "version": {
+      "conventionalCommits": true
+    }
+  }
 }
