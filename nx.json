@@ -22,6 +22,11 @@
     "projects": [ "@gavajs/vue" ],
     "version": {
       "conventionalCommits": true
+    },
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
     }
   }
 }
