@@ -8,4 +8,8 @@ Use for unit testing with any test runner.
 
 ### Mount component
 
-<!-- FIXME -->
+```js
+import { mount } from '@gavajs/vue';
+
+const instance = mount(Component);
+```
