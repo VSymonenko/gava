@@ -1,3 +1,13 @@
+## 0.1.3 (2024-11-29)
+
+### 🩹 Fixes
+
+- **vue:** set type second parameter of mount function ([cd32b3f](https://github.com/VSymonenko/gava/commit/cd32b3f))
+
+### ❤️  Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.1.2 (2024-11-28)
 
 ### 🩹 Fixes
