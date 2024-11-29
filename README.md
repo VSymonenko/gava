@@ -17,3 +17,9 @@ git clone https://github.com/VSymonenko/gava.git
 ```bash
 npm i
 ```
+
+## Release
+
+1. Run release locally
+
+<!-- FIXME -->

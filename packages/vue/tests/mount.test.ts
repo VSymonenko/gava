@@ -11,8 +11,9 @@ test('take vue Component', () => {
   expect(() => mount({})).toThrowError();
 });
 
+
 test('return Vue3 Component', () => {
-  const instance = {
+  const Instance = {
     setup() {
       return {
         count: 3
@@ -20,7 +21,20 @@ test('return Vue3 Component', () => {
     },
     template: '<div>{{ count }}</div>'
   }
-  const cmp = mount(instance);
+  const cmp = mount(Instance);
   expect(cmp).toHaveProperty('$'); // ComponentINternalInstance
   expectTypeOf(cmp).toEqualTypeOf<ComponentPublicInstance>();
 });
+
+test('take props optionally', () => {
+  const Instance = {
+    setup(props: { count: number }) {
+      return {
+        count: props.count
+      }
+    },
+    template: '<div>{{ count }}</div>'
+  }
+  const cmp = mount(Instance, { count: 3 });
+  expect(cmp.$el.textContent).toBe('3');
+})
