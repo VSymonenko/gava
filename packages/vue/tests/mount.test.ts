@@ -28,6 +28,7 @@ test('return Vue3 Component', () => {
 
 test('take props optionally', () => {
   const Instance = {
+    props: ['count'],
     setup(props: { count: number }) {
       return {
         count: props.count
@@ -36,5 +37,6 @@ test('take props optionally', () => {
     template: '<div>{{ count }}</div>'
   }
   const cmp = mount(Instance, { count: 3 });
+  console.log(cmp);
   expect(cmp.$el.textContent).toBe('3');
 })
