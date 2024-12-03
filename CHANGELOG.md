@@ -1,3 +1,13 @@
+## 0.1.4 (2024-12-03)
+
+### 🩹 Fixes
+
+- **vue:** take props optionally test ([b9bfc64](https://github.com/VSymonenko/gava/commit/b9bfc64))
+
+### ❤️  Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.1.3 (2024-11-29)
 
 ### 🩹 Fixes
