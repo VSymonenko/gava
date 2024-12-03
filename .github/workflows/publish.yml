@@ -4,8 +4,14 @@
 name: Publish
 
 on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish'
+        required: false
+        default: ''
   release:
-    types: [created]
+    types: [published]
 
 # Needed for nx-set-shas when run on the main branch
 permissions:
@@ -14,21 +20,43 @@ permissions:
 
 jobs:
   publish:
+    name: Publish to npm
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     env:
       NX_BASE: origin/main~1
       NX_HEAD: origin/main
       NODE_AUTH_TOKEN: ${{secrets.npm_token}}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-      - run: npm ci
+          registry-url: 'https://registry.npmjs.org'
 
-      - uses: nrwl/nx-set-shas@v4
+      - name: Install dependencies
+        run: npm ci
 
-      - run: npx nx affected -t lint test test:types build publish
+      - name: Set shas
+        uses: nrwl/nx-set-shas@v4
+
+      - name: Build artifact
+        run: npx nx affected -t lint test test:types build
+
+      - name: Apply updated version and publish
+        run: |
+          # Use the version from the workflow input if it`s seo
+          VERSION=${{ github.event.inputs.version || github.ref_name }}
+          npx nx release version --specifier=$VERSION
+          npx nx release publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_CONFIG_PROVENANCE: true
