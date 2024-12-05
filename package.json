@@ -33,6 +33,8 @@
   "devDependencies": {
     "@nx/js": "^20.1.3",
     "@types/yargs": "^17.0.33",
+    "dotenv": "^16.4.7",
+    "dotenv-expand": "^12.0.1",
     "jsdom": "^25.0.1",
     "nx": "20.1.2",
     "tsx": "^4.19.2",

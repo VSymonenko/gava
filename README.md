@@ -22,4 +22,6 @@ npm i
 
 1. Run release locally
 
-<!-- FIXME -->
+```bash
+npx tsx release.mts -d false
+```

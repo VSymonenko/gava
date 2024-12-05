@@ -16,6 +16,7 @@ Project Description
 
 ### In Progress
 
+- [ ] fix release localy  
 - [ ] add GITHUB_TOKEN  
 - [ ] make release doc, should be run by nx  
 - [ ] make github actions release, should be run when release pushed  

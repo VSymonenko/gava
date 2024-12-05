@@ -1,5 +1,12 @@
 import { releaseChangelog, releasePublish, releaseVersion } from 'nx/release';
 import yargs from 'yargs/yargs';
+import dotenv from 'dotenv';
+import dotenvExpand from 'dotenv-expand';
+
+const { parsed } = dotenv.config({
+  path: ['.env.local', '.env'],
+});
+dotenvExpand.expand(parsed);
 
 const { dryRun, verbose, version } = await yargs(process.argv.slice(2))
   .version(false)
@@ -31,3 +38,7 @@ await releaseChangelog({
 });
 
 const publishStatus = await releasePublish({ dryRun, verbose });
+
+// process.exit(
+//   Object.values(publishStatus).every((result) => result.code === 0) ? 0 : 1
+// )
