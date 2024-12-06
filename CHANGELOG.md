@@ -1,3 +1,13 @@
+## 0.1.6 (2024-12-06)
+
+### 🩹 Fixes
+
+- **vue:** avoid publish package twice ([311eb66](https://github.com/VSymonenko/gava/commit/311eb66))
+
+### ❤️  Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.1.5 (2024-12-06)
 
 ### 🩹 Fixes
