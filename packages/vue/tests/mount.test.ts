@@ -1,4 +1,4 @@
-import { Component, ComponentPublicInstance, defineComponent } from 'vue';
+import { Component, ComponentPublicInstance, defineComponent, h } from 'vue';
 import { expect, expectTypeOf, test } from 'vitest';
 
 import { mount } from '../src/mount';
@@ -40,10 +40,11 @@ test('take props optionally', () => {
   expect(cmp.$el.textContent).toBe('3');
 });
 
-test.todo('receive slots', () => {
+test('receive slots', () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const Parent: Component = {
-    slots: ['counter'],
     template: '<span><slot name="counter" /></span>'
   };
+  const cmp = mount(Parent, { slots: { counter: Instance }});
+  expect(cmp.$el.textContent).toBe('3');
 });
