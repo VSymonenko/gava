@@ -1,3 +1,13 @@
+## 0.1.5 (2024-12-06)
+
+### 🩹 Fixes
+
+- **vue:** receive slots unit test ([c4f34d4](https://github.com/VSymonenko/gava/commit/c4f34d4))
+
+### ❤️  Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.1.4 (2024-12-03)
 
 ### 🩹 Fixes
