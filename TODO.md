@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] fix publish by github actions  
 - [ ] update vitetst see wallaby error  
 - [ ] move node modules up  
 - [ ] make git hub actions for monorepo  
@@ -16,13 +17,13 @@ Project Description
 
 ### In Progress
 
-- [ ] fix release localy  
 - [ ] add GITHUB_TOKEN  
 - [ ] make release doc, should be run by nx  
 - [ ] make github actions release, should be run when release pushed  
 
 ### Done ✓
 
+- [x] fix release localy  
 - [x] remove map files from npm pack  
 - [x] make npm ignore  
 - [x] publish vue version  
