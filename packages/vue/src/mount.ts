@@ -1,4 +1,4 @@
-import { createApp, type Component, h } from 'vue';
+import { createApp, type Component } from 'vue';
 
 export function mount<T>(_cmp: Component<T>, props?: Record<string, unknown>) {
   if (!(['setup', 'template', '__v_isVNode'].some((key) => (key in _cmp)))) {
