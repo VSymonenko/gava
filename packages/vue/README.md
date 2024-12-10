@@ -20,14 +20,14 @@ And return `ComponentPublicInstance`
 ```ts
 // short signature
 // with props
-function mount(type: string | Component, props?: object);
+function mount(type: string | Component, props?: object): ComponentPublicInstance;
 // or with children
-function mount(type: string | Component, children?: Children);
+function mount(type: string | Component, children?: Children): ComponentPublicInstance;
 type Children = string | number | boolean | VNode | null | Children[];
 // or with slot
-function mount(type: string | Component, slot?: () => Children);
+function mount(type: string | Component, slot?: () => Children): ComponentPublicInstance;
 // or with named slots
-function mount(type: string | Component, slots: { [name: string]: Slot });
+function mount(type: string | Component, slots: { [name: string]: Slot }): ComponentPublicInstance;
 ```
 
 ```ts
