@@ -22,7 +22,7 @@ const Instance: Component = {
 }
 test('return Vue3 Component', () => {
   const cmp = mount(Instance);
-  expect(cmp).toHaveProperty('$'); // ComponentINternalInstance
+  expect(cmp).toHaveProperty('$'); // ComponentInternalInstance
   expectTypeOf(cmp).toEqualTypeOf<ComponentPublicInstance>();
 });
 
@@ -39,6 +39,14 @@ test('take props optionally', () => {
   const cmp = mount(Instance, { count: 3 });
   expect(cmp.$el.textContent).toBe('3');
 });
+
+test('render default slot', () => {
+  const Parent: Component = {
+    template: '<span><slot/></span>',
+  }
+  const cmp = mount(Parent, () => 'I am child');
+  expect(cmp.$el.textContent).toBe('I am child');
+})
 
 test.todo('receive slots', () => {
   const Parent: Component = {
