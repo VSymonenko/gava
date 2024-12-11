@@ -1,3 +1,13 @@
+## 0.2.0 (2024-12-11)
+
+### 🚀 Features
+
+- **vue:** render default slot ([0bf3663](https://github.com/VSymonenko/gava/commit/0bf3663))
+
+### ❤️ Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.1.6 (2024-12-06)
 
 ### 🩹 Fixes
