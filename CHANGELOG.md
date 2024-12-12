@@ -1,3 +1,13 @@
+## 0.2.1 (2024-12-12)
+
+### 🩹 Fixes
+
+- **vue:** emit types declaration files ([dd64b98](https://github.com/VSymonenko/gava/commit/dd64b98))
+
+### ❤️ Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.2.0 (2024-12-11)
 
 ### 🚀 Features
