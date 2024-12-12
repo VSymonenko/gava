@@ -17,12 +17,13 @@ Project Description
 
 ### In Progress
 
-- [ ] add GITHUB_TOKEN  
 - [ ] make release doc, should be run by nx  
 - [ ] make github actions release, should be run when release pushed  
 
 ### Done ✓
 
+- [x] emit types declarations  
+- [x] add GITHUB_TOKEN  
 - [x] fix release localy  
 - [x] remove map files from npm pack  
 - [x] make npm ignore  
