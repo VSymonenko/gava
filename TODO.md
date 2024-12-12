@@ -22,6 +22,7 @@ Project Description
 
 ### Done ✓
 
+- [x] minify output files  
 - [x] emit types declarations  
 - [x] add GITHUB_TOKEN  
 - [x] fix release localy  
