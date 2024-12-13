@@ -1,13 +1,4 @@
-import { defineConfig, mergeConfig } from 'vitest/config';
-
 import configShared from './../../vitest.config.mts';
+import { mergeConfig } from 'vitest/config';
 
-export default mergeConfig(configShared, defineConfig({
-  test: {
-    coverage: {
-      exclude: [
-        '**/index.ts',
-      ],
-    },
-  },
-}));
+export default mergeConfig(configShared, {});
