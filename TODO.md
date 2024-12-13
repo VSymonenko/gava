@@ -6,22 +6,23 @@ Project Description
 
 ### Todo
 
-- [ ] fix publish by github actions  
-- [ ] update vitetst see wallaby error  
-- [ ] move node modules up  
-- [ ] make git hub actions for monorepo  
-- [ ] fix build task depend on test in github actions  
-- [ ] make test coverage 100 %  
+- [ ] config auto coma after saving  
 - [ ] add coverage badge  
 - [ ] mangling, minifyig artifact  
+- [ ] fix publish by github actions see .github/workflows/publish.FIXME  
 
 ### In Progress
 
-- [ ] make release doc, should be run by nx  
-- [ ] make github actions release, should be run when release pushed  
+- [ ] make test coverage 100 %  
 
 ### Done ✓
 
+- [x] fix build task depend on test in github actions  
+- [x] make git hub actions for monorepo  
+- [x] move node modules up  
+- [x] update vitetst see wallaby error  
+- [x] make github actions release, should be run when release pushed  
+- [x] make release doc, should be run by nx  
 - [x] minify output files  
 - [x] emit types declarations  
 - [x] add GITHUB_TOKEN  
