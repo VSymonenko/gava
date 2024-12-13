@@ -13,7 +13,7 @@ Project Description
 
 ### In Progress
 
-- [ ] make test coverage 100 %  
+- [ ] config vitest workspaces, make test coverage 100 %  
 
 ### Done ✓
 
