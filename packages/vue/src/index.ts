@@ -1,3 +1,4 @@
+import { createMount } from './createMount';
 import { mount } from './mount';
 
-export { mount };
+export { mount, createMount };
