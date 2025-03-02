@@ -1,3 +1,17 @@
+## 0.3.0 (2025-03-02)
+
+### 🚀 Features
+
+- **vue:** make createMount function ([07f54d1](https://github.com/VSymonenko/gava/commit/07f54d1))
+
+### 🩹 Fixes
+
+- **vue:** expose createMount function ([94c1251](https://github.com/VSymonenko/gava/commit/94c1251))
+
+### ❤️ Thank You
+
+- V.Symonenko @VSymonenko
+
 ## 0.2.1 (2024-12-12)
 
 ### 🩹 Fixes
