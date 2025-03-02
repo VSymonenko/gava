@@ -4,3 +4,5 @@ eslint.config.mjs
 tsconfig.json
 tsconfig.build.json
 .nvmrc
+coverage
+vitest.config.mts

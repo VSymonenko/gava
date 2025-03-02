@@ -3,6 +3,7 @@
     "Gava",
     "gavajs",
     "NPMJS",
-    "nvmrc"
+    "nvmrc",
+    "vitest"
   ]
 }
