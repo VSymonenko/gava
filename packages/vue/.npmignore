@@ -6,3 +6,4 @@ tsconfig.build.json
 .nvmrc
 coverage
 vitest.config.mts
+board.kanban
