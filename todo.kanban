@@ -15,11 +15,43 @@
       "title": "Doing",
       "cards": [
         {
+          "id": "9bb07718-f77b-4061-9a00-d3692630a42d",
+          "listId": "3b4b61b5-d2ef-435a-9df9-7062dca9311d",
+          "title": "make typescript work",
+          "description": "",
+          "labels": [
+            {
+              "id": "a749b252-f210-4220-ab24-d9522cdaaa89",
+              "title": "TASK",
+              "color": "#00c2e0"
+            }
+          ],
+          "checkboxes": [
+            {
+              "id": "d1d17b93-e037-47f3-9b81-b5c7ad317c27",
+              "title": "integration with vscode",
+              "checked": false
+            },
+            {
+              "id": "434f0970-b1b4-45d6-be91-f5afabe56537",
+              "title": "cmd run",
+              "checked": false
+            }
+          ],
+          "comments": []
+        },
+        {
           "id": "853f29d7-c660-4a20-83f6-e57ea7309ab6",
           "listId": "3b4b61b5-d2ef-435a-9df9-7062dca9311d",
           "title": "remove dependecies duplicates",
           "description": "",
-          "labels": [],
+          "labels": [
+            {
+              "id": "a749b252-f210-4220-ab24-d9522cdaaa89",
+              "title": "TASK",
+              "color": "#00c2e0"
+            }
+          ],
           "checkboxes": [],
           "comments": []
         }
@@ -36,6 +68,12 @@
     "cards": []
   },
   "settings": {
-    "labels": []
+    "labels": [
+      {
+        "id": "a749b252-f210-4220-ab24-d9522cdaaa89",
+        "title": "TASK",
+        "color": "#00c2e0"
+      }
+    ]
   }
 }
