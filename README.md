@@ -25,3 +25,7 @@ npm i
 ```bash
 npx tsx release.mts -d false
 ```
+
+### Todo
+
+[] Make $el filed infered
