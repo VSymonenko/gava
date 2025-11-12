@@ -1,4 +1,4 @@
-import { type Component, VNode, ComponentPublicInstance } from 'vue';
+import type { Component, VNode, ComponentPublicInstance } from 'vue';
 import { createMount } from './createMount';
 
 export function mount(cmp: Component, props?: Record<string, unknown> | string | (() => string)) {
@@ -7,5 +7,5 @@ export function mount(cmp: Component, props?: Record<string, unknown> | string |
   }
   const mount = createMount(cmp);
   const result = mount(props as object);
-  return (result.$.subTree.children as Array<VNode>)[0].component?.proxy as ComponentPublicInstance;
+  return (result.$.subTree.children as Array<VNode>)[0]?.component?.proxy as ComponentPublicInstance;
 }

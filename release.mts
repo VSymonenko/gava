@@ -25,14 +25,14 @@ const { dryRun, verbose, version } = await yargs(process.argv.slice(2))
   .parseAsync();
 
 const { workspaceVersion, projectsVersionData } = await releaseVersion({
-  specifier: version,
+  specifier: version ? version : '',
   dryRun,
   verbose,
 });
 
 await releaseChangelog({
   versionData: projectsVersionData,
-  version: workspaceVersion,
+  version: workspaceVersion ? workspaceVersion : null,
   dryRun,
   verbose,
 });

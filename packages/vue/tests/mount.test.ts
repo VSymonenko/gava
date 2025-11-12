@@ -1,4 +1,4 @@
-import { Component, ComponentPublicInstance, defineComponent } from 'vue';
+import { type Component, type ComponentPublicInstance, defineComponent } from 'vue';
 import { expect, expectTypeOf, test } from 'vitest';
 
 import { mount } from '../src/mount';

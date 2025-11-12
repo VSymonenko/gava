@@ -1,4 +1,4 @@
-import { createApp, type Component, h, App } from 'vue';
+import { createApp, type Component, h, type App } from 'vue';
 
 export function createMount(cmp: Component) {
   const _createApp = (props?: object) => {
