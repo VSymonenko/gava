@@ -19,7 +19,9 @@
   },
   "defaultBase": "main",
   "release": {
-    "projects": [ "@gavajs/vue" ],
+    "projects": [
+      "@gavajs/vue"
+    ],
     "version": {
       "conventionalCommits": true
     },
