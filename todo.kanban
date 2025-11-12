@@ -1,0 +1,41 @@
+{
+  "lists": [
+    {
+      "id": "4b616dd4-918a-4192-927d-17b5378c9b04",
+      "title": "Backlog",
+      "cards": []
+    },
+    {
+      "id": "a24bb940-5ba3-4d4d-916c-fe50b5af31b7",
+      "title": "To Do",
+      "cards": []
+    },
+    {
+      "id": "3b4b61b5-d2ef-435a-9df9-7062dca9311d",
+      "title": "Doing",
+      "cards": [
+        {
+          "id": "853f29d7-c660-4a20-83f6-e57ea7309ab6",
+          "listId": "3b4b61b5-d2ef-435a-9df9-7062dca9311d",
+          "title": "remove dependecies duplicates",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "8d269643-5b4a-49a0-bf5c-19e36acdd82d",
+      "title": "Done",
+      "cards": []
+    }
+  ],
+  "archive": {
+    "lists": [],
+    "cards": []
+  },
+  "settings": {
+    "labels": []
+  }
+}
