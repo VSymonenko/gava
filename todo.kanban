@@ -15,8 +15,29 @@
       "title": "Doing",
       "cards": [
         {
-          "id": "9bb07718-f77b-4061-9a00-d3692630a42d",
+          "id": "853f29d7-c660-4a20-83f6-e57ea7309ab6",
           "listId": "3b4b61b5-d2ef-435a-9df9-7062dca9311d",
+          "title": "remove dependecies duplicates",
+          "description": "",
+          "labels": [
+            {
+              "id": "a749b252-f210-4220-ab24-d9522cdaaa89",
+              "title": "TASK",
+              "color": "#00c2e0"
+            }
+          ],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
+    },
+    {
+      "id": "8d269643-5b4a-49a0-bf5c-19e36acdd82d",
+      "title": "Done",
+      "cards": [
+        {
+          "id": "9bb07718-f77b-4061-9a00-d3692630a42d",
+          "listId": "8d269643-5b4a-49a0-bf5c-19e36acdd82d",
           "title": "make typescript work",
           "description": "",
           "labels": [
@@ -39,28 +60,8 @@
             }
           ],
           "comments": []
-        },
-        {
-          "id": "853f29d7-c660-4a20-83f6-e57ea7309ab6",
-          "listId": "3b4b61b5-d2ef-435a-9df9-7062dca9311d",
-          "title": "remove dependecies duplicates",
-          "description": "",
-          "labels": [
-            {
-              "id": "a749b252-f210-4220-ab24-d9522cdaaa89",
-              "title": "TASK",
-              "color": "#00c2e0"
-            }
-          ],
-          "checkboxes": [],
-          "comments": []
         }
       ]
-    },
-    {
-      "id": "8d269643-5b4a-49a0-bf5c-19e36acdd82d",
-      "title": "Done",
-      "cards": []
     }
   ],
   "archive": {
