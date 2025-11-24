@@ -3,6 +3,7 @@
   "version": "0.3.0",
   "description": "Vue unit test",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest run",
     "test:types": "tsc --noEmit -p tsconfig.build.json",
