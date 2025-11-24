@@ -32,8 +32,7 @@
   "homepage": "https://github.com/VSymonenko/gava#readme",
   "devDependencies": {
     "@eslint/js": "^9.14.0",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.4"
+    "typescript": "^5.6.3"
   },
   "peerDependencies": {
     "vue": "3"
