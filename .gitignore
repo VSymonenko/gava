@@ -134,3 +134,6 @@ dist
 .nx/workspace-data
 
 .npmrc
+
+# ignore for eslint
+/packages/vue/coverage/**
